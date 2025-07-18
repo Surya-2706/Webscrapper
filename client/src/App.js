@@ -31,7 +31,7 @@ const App = () => {
         }
         setLoading(true);
         try {
-            const response = await axios.post("http://localhost:8000/scrape", { url }, {
+            const response = await axios.post("https://webscrapper-dhn1.onrender.com/scrape", { url }, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
