@@ -17,8 +17,7 @@ The results are presented in a **Notion-like searchable table** UI. Ideal for co
 - 🏷️ Generates title, summary, and keywords
 - ⚙️ Filters & search in a Notion-style UI
 - ⚡ Fast scraping with error handling
-- 🚫 Skips login-protected or restricted content
-- ☁️ Fully deployable on **Vercel (Frontend)** + **Render/Railway (Backend)**
+- ☁️ Fully deployable on **Vercel (Frontend)** + **Render (Backend)**
 
 ---
 
