@@ -38,5 +38,8 @@ The results are presented in a **Notion-like searchable table** UI. Ideal for co
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-content-extractor.git
-cd ai-content-extractor
+git clone https://github.com/Surya-2706/Webscrapper.git
+cd Webscrapper
+npm install
+cd /client - npm install and cd /server npm install
+on root run npm run dev
