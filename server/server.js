@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://webscrapper-3of5ac4v0-surya-9d3517eb.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://webscrapper-amber.vercel.app'],
 }));
 app.use(express.json());
 
