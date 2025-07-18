@@ -2,12 +2,14 @@ const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
 const cheerio = require('cheerio');
-const { summarizeWithClaude } = require('./calude'); // your Claude logic
+const { summarizeWithClaude } = require('./calude');
 
 const app = express();
 const PORT = process.env.PORT || 8000;
 
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:3000', 'https://webscrapper-3of5ac4v0-surya-9d3517eb.vercel.app/'],
+}));
 app.use(express.json());
 
 app.post('/scrape', async (req, res) => {
